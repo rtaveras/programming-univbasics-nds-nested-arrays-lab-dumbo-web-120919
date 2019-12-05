@@ -24,7 +24,7 @@ ENFIELD_TENNIS_ACADEMY,
 end
 
 def array_literal_matrix
-  ENNET_HOUSE.sort, ENFIELD_TENNIS_ACADEMY.sort
+  [ENNET_HOUSE.sort, ENFIELD_TENNIS_ACADEMY.sort]
 end
 
 def matrix_lookup(matrix, row, column)
