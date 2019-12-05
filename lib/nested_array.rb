@@ -17,7 +17,7 @@ ENFIELD_TENNIS_ACADEMY = [
 ]
 
 def assembled_matrix 
-matrix = [
+the_matrix = [
 ENNET_HOUSE,
 ENFIELD_TENNIS_ACADEMY,
 ]
@@ -28,7 +28,7 @@ def array_literal_matrix
 end
 
 def matrix_lookup(matrix, row, column)
-  # Return the matrix's content at row and column
+  assembled_matrix[row][column]
 end
 
 def matrix_update(matrix, row, column, new_value)
